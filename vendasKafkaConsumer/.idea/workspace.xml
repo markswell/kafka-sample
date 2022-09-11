@@ -20,6 +20,22 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/markswell/model/Produto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/markswell/model/Venda.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/markswell/model/VendaItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/src/main/java/com/markswell/config/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/src/main/java/com/markswell/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/src/main/java/com/markswell/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/src/main/java/com/markswell/model/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/src/main/java/com/markswell/model/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/src/main/java/com/markswell/model/VendaItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/src/main/java/com/markswell/resource/VendaResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vendaskafkaproducer/src/main/java/com/markswell/serializer/VendaSerializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +80,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/markswell/workspace/vendasKafkaConsumer/src/main/java/com.markswell"
+    "last_opened_file_path": "/home/markswell/workspace/kafka-sample/vendaskafkaproducer",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">

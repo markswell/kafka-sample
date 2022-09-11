@@ -1,7 +1,7 @@
 package com.markswell;
 
-import com.markswell.deserializer.VendaDeserializer;
 import com.markswell.model.Venda;
+import com.markswell.deserializer.VendaDeserializer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.KafkaConsumer;;
 
@@ -14,6 +14,7 @@ public class VedasKafkaConsumer {
     public static void main(String[] args) {
         var properties = new Properties();
         properties.put(ConsumerConfig.GROUP_ID_CONFIG, "consumer");
+        properties.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
         properties.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
         properties.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, VendaDeserializer.class.getName());
         properties.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, VendaDeserializer.class.getName());
